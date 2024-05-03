@@ -1,0 +1,34 @@
+:root {
+  --originalWhite: #ffffff;
+  --spinachWhite: #edefdf;
+  --cilantroCream: #cccab0;
+  --charcoalClay: #33363d;
+  --usumoegiGreen: #96c65e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--spinachWhite);
+  color: var(--charcoalClay);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 1536px;
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
